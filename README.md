@@ -17,6 +17,16 @@ The Python conditional bootstrap F1 interval is 85.71%–90.82%. Source and time
 
 **How much depends on the split.** The table uses one split (seed 42). Rerunning the same pipeline on 20 other random splits (`seed_spread.py`, output in `email_artifacts/seed_spread.json`): accuracy 89.06–92.98% (mean 91.18%), spam recall 76.72–89.85% (mean 84.70%), F1 84.96–90.96% (mean 88.41%), and the validation-chosen threshold ranges from 0.39 to 0.71. The always-ham baseline stays at 60.17%. Seed 42 is close to the average, not a lucky split, but recall in particular can swing by more than ten points.
 
+## Screenshots
+
+Native MATLAB Online R2026a run of `matlab_email.m`: held-out metrics chart and the passing assertion line in the Command Window:
+
+![MATLAB run](email_artifacts/matlab-screenshot.png)
+
+Local Python demo (`python serve.py`) predicting a held-out spam sample:
+
+![Python local demo](email_artifacts/python-demo-screenshot.png)
+
 ## Run Python
 
 From this project directory (verified on Python 3.13.5):
