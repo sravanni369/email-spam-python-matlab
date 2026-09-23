@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+matlab_data/
+matlab_run.log
+matlab_metrics.json
+matlab_model.mat
+matlab_predictions.csv
+matlab_results.png
+.claude/

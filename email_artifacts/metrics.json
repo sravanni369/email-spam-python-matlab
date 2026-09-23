@@ -1,0 +1,62 @@
+{
+  "source": "https://archive.ics.uci.edu/static/public/94/spambase.zip",
+  "sha256": "813ac1df8effac70463c09c9c4b11e8803eefcab54771af66150852bcdcd1636",
+  "audit": {
+    "raw_rows": 4601,
+    "unique_feature_groups": 4207,
+    "conflicting_groups_excluded": 3,
+    "conflicting_rows_excluded": 6,
+    "redundant_same_label_rows_removed": 391,
+    "usable_rows": 4204
+  },
+  "seed": 42,
+  "split_sizes": {
+    "train": 2522,
+    "valid": 841,
+    "test": 841
+  },
+  "feature_overlap_between_splits": 0,
+  "threshold": 0.59,
+  "validation": {
+    "accuracy": 0.9357907253269917,
+    "precision": 0.946031746031746,
+    "recall": 0.8895522388059701,
+    "f1": 0.916923076923077,
+    "confusion_matrix_tn_fp_fn_tp": [
+      489,
+      17,
+      37,
+      298
+    ]
+  },
+  "test": {
+    "accuracy": 0.9096313912009513,
+    "precision": 0.9163987138263665,
+    "recall": 0.8507462686567164,
+    "f1": 0.8823529411764706,
+    "confusion_matrix_tn_fp_fn_tp": [
+      480,
+      26,
+      50,
+      285
+    ]
+  },
+  "baseline": {
+    "accuracy": 0.6016646848989299,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix_tn_fp_fn_tp": [
+      506,
+      0,
+      335,
+      0
+    ]
+  },
+  "test_average_precision": 0.9478665710353491,
+  "f1_bootstrap_95_percentile_interval": [
+    0.8571312238250348,
+    0.908234298321363
+  ],
+  "interval_scope": "Conditional on this fitted model and cleaned test set; not source/time generalization"
+}

@@ -1,0 +1,20 @@
+{
+  "precision": 0.9163987138263665,
+  "recall": 0.8507462686567164,
+  "f1": 0.8823529411764706,
+  "accuracy": 0.9096313912009513,
+  "threshold": 0.5900000000000001,
+  "counts": [
+    480,
+    26,
+    50,
+    285
+  ],
+  "runtime": "MATLAB Online R2026a Update 5",
+  "split_counts": [
+    2522,
+    841,
+    841
+  ],
+  "evidence": "Copied from the MATLAB Command Window JSON output"
+}

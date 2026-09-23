@@ -1,0 +1,16 @@
+test_conflicting_and_duplicate_features (test_email.EmailTests.test_conflicting_and_duplicate_features) ... ok
+test_http (test_email.EmailTests.test_http) ... ok
+test_preprocessing_train_only (test_email.EmailTests.test_preprocessing_train_only) ... ok
+test_saved_metrics_independent_counts (test_email.EmailTests.test_saved_metrics_independent_counts) ... ok
+test_source_split_disjoint (test_email.EmailTests.test_source_split_disjoint) ... ok
+test_validation (test_email.EmailTests.test_validation) ... ok
+test_conflicting_labels (test_spam.SpamTests.test_conflicting_labels) ... ok
+test_duplicates (test_spam.SpamTests.test_duplicates) ... ok
+test_invalid_input (test_spam.SpamTests.test_invalid_input) ... ok
+test_no_vocabulary_leakage (test_spam.SpamTests.test_no_vocabulary_leakage) ... ok
+test_persistence (test_spam.SpamTests.test_persistence) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.127s
+
+OK

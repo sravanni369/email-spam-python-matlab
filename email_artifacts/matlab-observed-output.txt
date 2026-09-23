@@ -1,0 +1,10 @@
+MATLAB Online R2026a Update 5, Command Window, September 22, 2026
+(text copied from the Command Window; values unchanged)
+
+(tail of the matlab_email run)
+precision: 0.9164 recall: 0.8507 f1: 0.8824 accuracy: 0.9096 threshold: 0.5900 counts: [480 26 50 285]
+{'Tolerance on coefficients satisfied.'}
+PASS: schema, labels, disjoint rows, feature overlap, convergence and counts.
+
+>> disp(fileread('matlab_metrics.json')); fprintf('SPLIT_COUNTS %d %d %d\n',numel(tr),numel(va),numel(te));
+{"precision":0.91639871382636651,"recall":0.85074626865671643,"f1":0.88235294117647056,"accuracy":0.90963139120095127,"threshold":0.59000000000000008,"counts":[480,26,50,285]} SPLIT_COUNTS 2522 841 841

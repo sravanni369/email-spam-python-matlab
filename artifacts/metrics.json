@@ -1,0 +1,57 @@
+{
+  "dataset_url": "https://archive.ics.uci.edu/static/public/228/sms%2Bspam%2Bcollection.zip",
+  "dataset_sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3",
+  "raw_rows": 5574,
+  "unique_rows": 5159,
+  "duplicates_removed": 415,
+  "split_sizes": {
+    "train": 3095,
+    "validation": 1032,
+    "test": 1032
+  },
+  "normalized_duplicate_overlap": 0,
+  "seed": 42,
+  "threshold": 0.33999999999999997,
+  "validation": {
+    "accuracy": 0.9893410852713178,
+    "precision": 0.9916666666666667,
+    "recall": 0.9224806201550387,
+    "f1": 0.9558232931726908,
+    "confusion_matrix_tn_fp_fn_tp": [
+      902,
+      1,
+      10,
+      119
+    ]
+  },
+  "test": {
+    "accuracy": 0.9835271317829457,
+    "precision": 0.9743589743589743,
+    "recall": 0.890625,
+    "f1": 0.9306122448979591,
+    "confusion_matrix_tn_fp_fn_tp": [
+      901,
+      3,
+      14,
+      114
+    ]
+  },
+  "test_average_precision": 0.9826435729080577,
+  "majority_baseline": {
+    "accuracy": 0.875968992248062,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix_tn_fp_fn_tp": [
+      904,
+      0,
+      128,
+      0
+    ]
+  },
+  "limitations": [
+    "SMS benchmark, not email validation",
+    "Near duplicates and source/time shifts not eliminated",
+    "Single held-out split; no production claim"
+  ]
+}

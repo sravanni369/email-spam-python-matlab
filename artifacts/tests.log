@@ -1,0 +1,10 @@
+test_conflicting_labels (test_spam.SpamTests.test_conflicting_labels) ... ok
+test_duplicates (test_spam.SpamTests.test_duplicates) ... ok
+test_invalid_input (test_spam.SpamTests.test_invalid_input) ... ok
+test_no_vocabulary_leakage (test_spam.SpamTests.test_no_vocabulary_leakage) ... ok
+test_persistence (test_spam.SpamTests.test_persistence) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.067s
+
+OK

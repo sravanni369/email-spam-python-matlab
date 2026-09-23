@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "email_project.py", line 119, in <module>
+    if args.command=='train': train()
+                              ^^^^^^^
+  File "email_project.py", line 95, in train
+    assert len(names)==57
+           ^^^^^^^^^^^^^^
+AssertionError

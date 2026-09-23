@@ -1,0 +1,6 @@
+accuracy           min 0.8906  mean 0.9118  max 0.9298
+precision          min 0.8876  mean 0.9262  max 0.9541
+recall             min 0.7672  mean 0.8470  max 0.8985
+f1                 min 0.8496  mean 0.8841  max 0.9096
+threshold          min 0.3900  mean 0.5780  max 0.7100
+baseline_accuracy  min 0.6017  mean 0.6017  max 0.6017
